@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pixel Perfect Card</title>
+    <link rel="stylesheet" href="assets/css/main.css" />
+  </head>
+  <body>
+    <main class="main-content">
+      <article
+        class="course-card course-card--bestseller"
+        aria-label="Curso Animación Digital con OpenToonz"
+      >
+        <!-- Imagen -->
+        <div class="course-card__media">
+          <img
+            class="course-card__image"
+            src="assets/img/course-banner.png"
+            alt="Portada del curso Animación Digital con OpenToonz"
+            loading="lazy"
+          />
+        </div>
+
+        <!-- Contenido -->
+        <div class="course-card__content">
+          <h3 class="course-card__title">Animación Digital con OpenToonz</h3>
+          <p class="course-card__instructor">Paola Colina</p>
+          <p class="course-card__summary">
+            Aprende a crear animaciones digitales profesionales utilizando
+            OpenToonz, el software de animación de código abierto inspirado en
+            flujos de animación tradicional asociados a estudios como Studio
+            Ghibli.
+          </p>
+          <!-- Estrellas -->
+          <div class="course-card__rating" aria-label="Calificación del curso">
+            <span class="course-card__rating-value">4.7</span>
+
+            <!-- Estrellas (visuales) -->
+            <span class="course-card__stars" aria-hidden="true">
+              <span class="course-card__star course-card__star--filled">★</span>
+              <span class="course-card__star course-card__star--filled">★</span>
+              <span class="course-card__star course-card__star--filled">★</span>
+              <span class="course-card__star course-card__star--filled">★</span>
+              <span class="course-card__star course-card__star--half">★</span>
+            </span>
+
+            <!-- Texto accesible del rating -->
+            <span class="course-card__rating-sr sr-only">
+              Calificación 4.7 de 5
+            </span>
+
+            <span class="course-card__reviews">(25,145)</span>
+          </div>
+          <p class="course-card__meta">Intermedio · 6 semanas · 18 clases</p>
+          <!-- Footer con precio y badge-->
+          <div class="course-card__footer">
+            <div class="course-card__price" aria-label="Precio">
+              <span class="course-card__price-current">$17.999</span>
+              <span class="course-card__price-old">$114.000</span>
+            </div>
+
+            <span class="course-card__badge course-card__badge--bestseller">
+              Bestseller
+            </span>
+          </div>
+          <!-- Link click CTA -->
+          <a
+            class="course-card__cta"
+            href="#"
+            aria-label="Ver curso Animación Digital con OpenToonz"
+            >Ver curso</a
+          >
+        </div>
+      </article>
+    </main>
+  </body>
+</html>
