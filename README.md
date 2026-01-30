@@ -36,4 +36,4 @@ El análisis del problema, la justificación de la metodología seleccionada,
 la documentación técnica interna y la reflexión final del proceso se encuentran
 desarrollados en el siguiente documento:
 
-**[Informe Técnico – Implementación de Metodología BEM y SASS](docs/Informe-Tecnico-BEM-SASS-Pixel-Perfect-Studio.pdf)**
+**[Informe Técnico – Implementación de Metodología BEM y SASS](docs/)**
