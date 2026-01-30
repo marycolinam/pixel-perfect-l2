@@ -21,12 +21,19 @@ Instalar dependencias:
 ```bash
 npm install
 ```
+
 npm run sass
 
 ## Componentes
 
 - course-card (BEM)
+  - elementos: **media, **content, **rating, **footer, etc.
+    - modificador: course-card--bestseller
 
-    - elementos: __media, __content, __rating, __footer, etc.
+## Documentación técnica
 
-        - modificador: course-card--bestseller
+El análisis del problema, la justificación de la metodología seleccionada,
+la documentación técnica interna y la reflexión final del proceso se encuentran
+desarrollados en el siguiente documento:
+
+**[Informe Técnico – Implementación de Metodología BEM y SASS](docs/Informe-Tecnico-BEM-SASS-Pixel-Perfect-Studio.pdf)**
