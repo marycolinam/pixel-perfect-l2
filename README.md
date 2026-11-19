@@ -6,8 +6,6 @@ Componente de tarjeta de curso maquetado *pixel perfect* con HTML5, SCSS y metod
 
 🔗 **[Ver demo](https://marycolinam.github.io/pixel-perfect-l2/)**
 
-![Vista previa de la course card](screenshots/preview.png)
-
 ---
 
 ## 📖 Sobre el proyecto
